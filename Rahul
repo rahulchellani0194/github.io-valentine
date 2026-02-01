@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Will You Be My Valentine?</title>
+    <style>
+        body { background: linear-gradient(to right, #ff69b4, #ff1493); font-family: Arial; text-align: center; color: white; }
+        h1 { font-size: 3em; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+        .heart { color: #ff69b4; font-size: 4em; animation: bounce 1s infinite; }
+        @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateY(0); } 40% { transform: translateY(-10px); } 60% { transform: translateY(-5px); } }
+        button { background: #ff1493; color: white; padding: 15px 30px; font-size: 1.2em; border: none; border-radius: 25px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="heart"></div>
+    <h1>[Her Name], Will You Be My Valentine?</h1>
+    <p>From our bike rides in the monsoon to every moment together, you've made my world brighter. Let's make this day special!</p>
+    <img src="your-photo.jpg" alt="Our Moment" style="max-width: 300px; border-radius: 50%; border: 5px solid white;">
+    <br><br>
+    <button onclick="alert('Yes! 💖')">Yes </button>
+    <button onclick="alert('Ask me later 😊')">Maybe</button>
+</body>
+</html>
